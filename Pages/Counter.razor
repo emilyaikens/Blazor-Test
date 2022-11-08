@@ -15,14 +15,18 @@
     <!-- define the variable currentCount -->
     private int currentCount = 0;
 
+    <!-- this public variable determines increment -->
+    [Parameter]
+    public int IncrementAmount {get; set;} = 1;
+
     <!-- define the function IncrementCount -->
     private void IncrementCount()
     {
-        currentCount++;
+        currentCount += IncrementAmount;
     }
     <!-- define the function DecreaseCount -->
         private void DecreaseCount()
     {
-        currentCount--;
+        currentCount -= IncrementAmount;
     }
 }
