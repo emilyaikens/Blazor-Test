@@ -21,7 +21,7 @@ else
                 <th>Date</th>
                 <th>Temp. (C)</th>
                 <th>Temp. (F)</th>
-                <th>Summary</th>
+                <th>Colors</th>
             </tr>
         </thead>
         <tbody>
@@ -31,7 +31,7 @@ else
                     <td>@forecast.Date.ToShortDateString()</td>
                     <td>@forecast.TemperatureC</td>
                     <td>@forecast.TemperatureF</td>
-                    <td>@forecast.Summary</td>
+                    <td>@forecast.Colors</td>
                 </tr>
             }
         </tbody>
@@ -39,10 +39,10 @@ else
 }
 
 @code {
-    private WeatherForecast[]? forecasts;
+    private Colors[]? forecasts;
 
     protected override async Task OnInitializedAsync()
     {
-        forecasts = await ForecastService.GetForecastAsync(DateTime.Now);
+        forecasts = await TeapotService.GetForecastAsync(DateTime.Now);
     }
 }

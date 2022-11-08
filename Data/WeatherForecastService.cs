@@ -1,19 +1,19 @@
 namespace BlazorApp.Data;
 
-public class WeatherForecastService
+public class TeapotService
 {
-    private static readonly string[] Summaries = new[]
+    private static readonly string[] Colors = new[]
     {
-        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+        "Light Blue", "Candy Red", "Dusk Grey", "Sunflower Yellow", "Burnt Orange"
     };
 
-    public Task<WeatherForecast[]> GetForecastAsync(DateTime startDate)
+    public Task<TeapotDate[]> GetForecastAsync(DateTime startDate)
     {
-        return Task.FromResult(Enumerable.Range(1, 5).Select(index => new WeatherForecast
+        return Task.FromResult(Enumerable.Range(1, 5).Select(index => new TeapotDate
         {
             Date = startDate.AddDays(index),
             TemperatureC = Random.Shared.Next(-20, 55),
-            Summary = Summaries[Random.Shared.Next(Summaries.Length)]
+            Colors = Colors[Random.Shared.Next(Colors.Length)]
         }).ToArray());
     }
 }
