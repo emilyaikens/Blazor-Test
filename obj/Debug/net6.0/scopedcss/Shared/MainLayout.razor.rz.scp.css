@@ -3,13 +3,16 @@ body[b-3ij3p7wwc4] {
     height: 100vh;
 }
 .main-head[b-3ij3p7wwc4] {
-    display: flexbox;
+    display: flex;
+    align-items: center;
     background-color: #003262;
     height: 160px;
-    align-items: center;
 }
 .logo[b-3ij3p7wwc4] {
     width: 70px;
+}
+.content[b-3ij3p7wwc4] {
+    padding-top: 0px;
 }
 .ursus[b-3ij3p7wwc4] {
     font-size: 30px;
@@ -19,6 +22,7 @@ body[b-3ij3p7wwc4] {
 .description[b-3ij3p7wwc4] {
     color: #3B7EA1;
     font-size: 20px;
+    letter-spacing: 1.5px;
 }
 .test[b-3ij3p7wwc4] {
     width: 90px;
@@ -31,4 +35,32 @@ body[b-3ij3p7wwc4] {
     line-height: 60px;
     color: #3B7EA1;
     font-size: 18px;
+}
+
+@media only screen and (max-width: 800px) {
+    .ursus[b-3ij3p7wwc4] {
+        font-size: 25px;
+        margin-top: 10px;
+    }
+    .description[b-3ij3p7wwc4] {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    img[b-3ij3p7wwc4] {
+        display: none;
+    }
+    .ursus[b-3ij3p7wwc4] {
+        font-size: 22px;
+    }
+    .description[b-3ij3p7wwc4] {
+        font-size: 16px;
+    }
+    .content[b-3ij3p7wwc4] {
+        text-align: center;
+    }
+    .footer[b-3ij3p7wwc4] {
+        font-size: 12px;
+    }
 }
