@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QCHRZtMWa5lfMExWe+vS9o8FUOLt5+bM9N33FpixwQI=",
+  "Hash": "YVpRaSPnvCNjNmxEhmWD2+7OUNYZ/GtgICzI5oZHUok=",
   "Source": "BlazorApp",
   "BasePath": "_content/BlazorApp",
   "Mode": "Default",
@@ -270,6 +270,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/emilyaikens/Desktop/Blazor-Test/BlazorApp/wwwroot/images/logo.jpeg",
+      "SourceId": "BlazorApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/emilyaikens/Desktop/Blazor-Test/BlazorApp/wwwroot/",
+      "BasePath": "_content/BlazorApp",
+      "RelativePath": "images/logo.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/logo.jpeg"
+    },
+    {
+      "Identity": "/Users/emilyaikens/Desktop/Blazor-Test/BlazorApp/wwwroot/images/test.png",
+      "SourceId": "BlazorApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/emilyaikens/Desktop/Blazor-Test/BlazorApp/wwwroot/",
+      "BasePath": "_content/BlazorApp",
+      "RelativePath": "images/test.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/test.png"
     }
   ]
 }

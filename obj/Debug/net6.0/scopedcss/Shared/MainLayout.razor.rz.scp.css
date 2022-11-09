@@ -1,8 +1,15 @@
+html[b-3ij3p7wwc4],
+body[b-3ij3p7wwc4] {
+    height: 100vh;
+}
 .main-head[b-3ij3p7wwc4] {
     display: flexbox;
     background-color: #003262;
-    height: 150px;
+    height: 160px;
     align-items: center;
+}
+.logo[b-3ij3p7wwc4] {
+    width: 70px;
 }
 .ursus[b-3ij3p7wwc4] {
     font-size: 30px;
@@ -11,7 +18,17 @@
 }
 .description[b-3ij3p7wwc4] {
     color: #3B7EA1;
+    font-size: 20px;
 }
 .test[b-3ij3p7wwc4] {
-    color: white;
+    width: 90px;
+}
+.footer[b-3ij3p7wwc4] {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    color: #3B7EA1;
+    font-size: 18px;
 }
