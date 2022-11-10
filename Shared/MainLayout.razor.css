@@ -9,7 +9,8 @@ body {
     height: 160px;
 }
 .logo {
-    width: 70px;
+    width: 100px;
+    padding-right: 10px;
 }
 .content {
     padding-top: 0px;
